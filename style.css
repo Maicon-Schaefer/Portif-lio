@@ -1,0 +1,378 @@
+@media screen and (max-width: 500px){
+    
+    #navegacao{
+        flex-direction: column;
+        font-size: 0.7em;
+    }
+
+    .nav-links ul{
+        margin-top: 30px;
+    }
+
+    .nav-links ul li a{
+        margin: 0px 0px 0px 0px;
+    }
+
+    #apresentacao{
+        font-size: 0.7em;
+    }
+
+    .apr-img img{
+        width: 200px;
+    }
+
+    .apr-escrita button{
+        font-size: 1em;
+
+    }
+
+    .sob-content{
+        flex-direction: column;
+        font-size: 0.7em;
+    }
+
+    #sobre{
+        margin: 0;
+    }
+
+    .cont-text{
+        font-size: 0.7em;
+        max-width: 300px;
+    }
+
+    .cont-img{
+        margin: 20px 0px;
+    }
+
+    .cont-img img{
+        width: 200px;
+    }
+
+    #sob-contatos{
+        flex-direction:row;
+        flex-wrap: wrap;
+        font-size: 0.2em;
+        justify-content: center;
+    }
+
+    .cont-div{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .cont-div h4{
+        font-size: 3em;
+    }
+
+    .cont-div p{
+        font-size: 1.6em;
+    }
+
+    .proj-artigos{
+        flex-direction: column;
+    }
+
+    .art{
+        align-items: center;
+    }
+
+    .art-button button a{
+        text-align: center;
+        font-size: 0.4em;
+    }
+
+
+    .btn-flex{
+        display: flex;
+    }
+
+    #rodape{
+        flex-direction: column;
+    }
+
+    .rod-conteudo{
+        flex-direction: column;
+    }
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+/*----- Início Navegação -----*/
+#navegacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #3f3e3e2c;;
+    background-color: black;
+}
+
+.nav-logo{
+    font-size: 2.0em;
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+hr{
+    border: 1px solid #3f3e3e2c;
+}
+/*----- Fim Navegação -----*/
+
+/*----- Início Apresentação -----*/
+#apresentacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.apr-escrita h3{
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.apr-escrita h1{
+    font-size: 2.4em;
+    color: blueviolet;
+    margin-bottom: 25px;
+}
+
+.apr-escrita p{
+    margin-bottom: 25px;
+}
+
+.apr-escrita a{
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+
+.apr-escrita a{
+
+}
+/*----- Fim Apresentação -----*/
+
+/*----- Início Sobre -----*/
+#sobre{
+    display: flex;
+    flex-direction: column; 
+}
+
+.sob-conteudo{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.sob-conteudo h2{
+    color: blueviolet;
+    margin-bottom: 40px;
+}
+
+.sob-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-text{
+    width: 400px;
+}
+
+.cont-img img{
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin: 0px 100px;
+}
+
+.sob-conteudo p{
+    letter-spacing: 1px;
+}
+
+#sob-contatos{
+    display: flex;
+    gap: 150px;
+    margin: 100px auto;
+}
+
+.cont-div{
+text-align: center;
+}
+
+.cont-div h4{
+    margin: 15px 0px;
+}
+
+#sob-contatos ion-icon{
+    background-color: #3f3e3e2c;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    color: blueviolet;
+    cursor: pointer;
+}
+/*----- Fim Sobre -----*/
+
+/*----- Início Projetos -----*/
+#projetos{
+margin-top: 100px;
+}
+
+#projetos h2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.proj-artigos{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #3f3e3e4d;
+    background-color: #3f3e3e10;
+    border-radius: 10px;
+}
+
+.art{
+    width: 45%;
+    margin: 20px 0px 0px;
+}
+
+.art-imagem img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.art-sobre{
+    margin-top: 15px;
+}
+
+.art-sobre h3{
+    font-size: 1.4em;
+    margin: 10px 0px;
+}
+
+.art-sobre p{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.art-button{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.art-button a{
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    gap: 100px;
+    background-color: blueviolet;
+    width: 40%;
+}
+
+.art-button a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+/*----- Fim Projetos -----*/
+
+/*----- Início Rodapé -----*/
+#rodape{
+    margin-top: 50px;
+    background-color: #3f3e3e2c;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.rod-conteudo{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+/*----- Fim Rodapé -----*/
+
+/*----- Início Adicionais -----*/
+.nav-logo a:hover{
+    color: rgb(170, 104, 231);
+    transition: 0.7s;
+}
+
+.nav-links ul li a:hover{
+    color: blueviolet;
+    transition: 0.7s;
+}
+
+.apr-escrita a:hover{
+    background-color: rgb(170, 104, 231);
+    transition: 0.7s;
+}
+
+#sob-contatos ion-icon:hover{
+    color: rgb(170, 104, 231);
+    transition: 0.7s;
+}
+
+.art-button a:hover{
+    background-color: rgb(170, 104, 231);
+    transition: 0.7s;
+}
+
